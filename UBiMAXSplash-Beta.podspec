@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'UBiMAXSplash.framework'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
-   s.dependency 'UBiMAXAdSDK'
+   s.dependency 'UBiMAXAdSDK-Beta'
   
 end
