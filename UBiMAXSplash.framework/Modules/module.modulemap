@@ -1,0 +1,6 @@
+framework module UBiMAXSplash {
+  umbrella header "UBiMAXSplash-umbrella.h"
+
+  export *
+  module * { export * }
+}
